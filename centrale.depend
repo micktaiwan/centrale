@@ -1,8 +1,9 @@
 # depslib dependency file v1.0
-1167165112 c:\home\faivre_macon\mickael\perso\projects\centrale\main.cpp
+1167307676 c:\home\faivre_macon\mickael\perso\projects\centrale\main.cpp
 	<iostream>
 	<cstdio>
 	"RS232_01/CommCtrl.h"
+	"server/server.h"
 
 1167162335 c:\home\faivre_macon\mickael\perso\projects\centrale\rs232_01\commctrl.h
 	<windows.h>
@@ -11,5 +12,11 @@
 
 1167162664 c:\home\faivre_macon\mickael\perso\projects\centrale\rs232_01\commctrl.cpp
 	"CommCtrl.h"
+	<iostream>
+
+1167307773 c:\home\faivre_macon\mickael\perso\projects\centrale\server\server.h
+
+1167307617 c:\home\faivre_macon\mickael\perso\projects\centrale\server\server.cpp
+	<winsock2.h>
 	<iostream>
 

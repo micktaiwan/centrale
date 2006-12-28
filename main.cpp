@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cstdio>
 #include "RS232_01/CommCtrl.h"
-
+#include "server/server.h"
 using namespace std;
 
 unsigned int calc_crc (char *ptbuf, unsigned int num)
@@ -149,13 +149,19 @@ void loop () {
         }
     }
 
+
+//void LoadWSDLL() {    }
+
+
 int main()
 {
+    //LoadWSDLL();
     bool rv = SetPortOpen(COM1,9600);
     if(!rv) {
         cout << "Error opening port" << endl;
         return 1;
         }
+    Server();
     while(1) {
         ReadPower();
         ReadVoltage();
