@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE CodeBlocks_layout_file>
+<CodeBlocks_layout_file>
+	<File name="RS232_01\CommCtrl.cpp" open="1" top="0">
+		<Cursor position="2579" topLine="44"/>
+	</File>
+	<File name="RS232_01\CommCtrl.h" open="1" top="0">
+		<Cursor position="402" topLine="0"/>
+	</File>
+	<File name="main.cpp" open="1" top="1">
+		<Cursor position="2638" topLine="12"/>
+	</File>
+</CodeBlocks_layout_file>

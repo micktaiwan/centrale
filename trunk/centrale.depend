@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1167165112 c:\home\faivre_macon\mickael\perso\projects\centrale\main.cpp
+	<iostream>
+	<cstdio>
+	"RS232_01/CommCtrl.h"
+
+1167162335 c:\home\faivre_macon\mickael\perso\projects\centrale\rs232_01\commctrl.h
+	<windows.h>
+	<commdlg.h>
+	<string>
+
+1167162664 c:\home\faivre_macon\mickael\perso\projects\centrale\rs232_01\commctrl.cpp
+	"CommCtrl.h"
+	<iostream>
+
