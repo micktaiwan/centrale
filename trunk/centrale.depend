@@ -20,3 +20,20 @@
 	<winsock2.h>
 	<iostream>
 
+1167486441 source:d:\svn\centrale\rs232_01\commctrl.cpp
+	"CommCtrl.h"
+	<iostream>
+
+1167486441 d:\svn\centrale\rs232_01\commctrl.h
+	<windows.h>
+	<commdlg.h>
+	<string>
+
+1167486535 source:d:\svn\centrale\main.cpp
+	<iostream>
+	<cstdio>
+	"RS232_01/CommCtrl.h"
+	"server/server.h"
+
+1167486516 d:\svn\centrale\server\server.h
+
