@@ -3,4 +3,4 @@
 
 int Server();
 
-#endif SERVER_H
+#endif

@@ -1,13 +1,13 @@
-<?xml version="1.0"?>
-<!DOCTYPE CodeBlocks_layout_file>
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <CodeBlocks_layout_file>
-	<File name="RS232_01\CommCtrl.cpp" open="1" top="0">
-		<Cursor position="2579" topLine="44"/>
+	<ActiveTarget name="All" />
+	<File name="RS232_01\CommCtrl.cpp" open="1" top="0" tabpos="0">
+		<Cursor position="2579" topLine="44" />
 	</File>
-	<File name="RS232_01\CommCtrl.h" open="1" top="0">
-		<Cursor position="402" topLine="0"/>
+	<File name="RS232_01\CommCtrl.h" open="1" top="0" tabpos="0">
+		<Cursor position="402" topLine="0" />
 	</File>
-	<File name="main.cpp" open="1" top="1">
-		<Cursor position="2638" topLine="12"/>
+	<File name="main.cpp" open="1" top="1" tabpos="1">
+		<Cursor position="4092" topLine="150" />
 	</File>
 </CodeBlocks_layout_file>

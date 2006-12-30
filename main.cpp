@@ -161,7 +161,7 @@ int main()
         cout << "Error opening port" << endl;
         return 1;
         }
-    Server();
+    //Server();
     while(1) {
         ReadPower();
         ReadVoltage();
