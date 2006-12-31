@@ -1,14 +1,4 @@
-#summary One-sentence summary of this page.
+#summary What is the goal of this project ?
 
-= Introduction =
-
-Add your content here.
-
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
-
+My goal is to do a simple program to control my hydroelectric power station.
+The second goal is to provide code for sending bytes to a RS232 port.
