@@ -10,9 +10,11 @@
 #define COM2 1
 
 bool SetPortOpen(int,DWORD);
-BOOL SetOutput(char* strTx , int size ,int);
-BOOL ReadRS(char*, int);
+bool SetOutput(char* strTx , int size ,int);
+bool ReadRS(char*, int);
 void CloseH();
+unsigned int calc_crc (char *ptbuf, unsigned int num);
+unsigned long ReadPower();
 
 #endif
 

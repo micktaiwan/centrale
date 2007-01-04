@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="gui.exe"/>
+    <OBJFILES value="gui.obj main.obj HTTPServer.obj MPNLBase.obj MThread.obj MUtils.obj 
+      ..\RS232_01\CommCtrl.obj ..\CentraleController.obj"/>
+    <RESFILES value="gui.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) main.dfm"/>
+    <LIBFILES value="boost_thread.lib"/>
+    <LIBRARIES value="rtl.lib vcl.lib"/>
+    <SPARELIBS value="vcl.lib rtl.lib"/>
+    <PACKAGES value="vcl.bpi rtl.bpi vclx.bpi dbrtl.bpi ThemeManagerC6D.bpi vcldb.bpi 
+      ThemeManagerC6.bpi VirtualTreesC6D.bpi VirtualTreesC6.bpi MS.bpi 
+      Indy60.bpi GifImagePack.bpi bcbie.bpi bcbsmp.bpi vclie.bpi xmlrtl.bpi 
+      inet.bpi inetdbbde.bpi inetdbxpress.bpi adortl.bpi bdertl.bpi dsnap.bpi 
+      ibxpress.bpi visualclx.bpi visualdbclx.bpi dsnapcrba.bpi dsnapcon.bpi 
+      dbexpress.bpi webdsnap.bpi websnap.bpi soaprtl.bpi vcldbx.bpi bdecds.bpi 
+      cds.bpi qrpt.bpi teeui.bpi teedb.bpi tee.bpi dss.bpi teeqr.bpi nmfast.bpi 
+      dbxcds.bpi inetdb.bpi"/>
+    <PATHCPP value=".;..\RS232_01;.."/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="WIN32;_WIN32"/>
+    <SYSDEFINES value="NO_STRICT;_RTLDLL"/>
+    <MAINSOURCE value="gui.cpp"/>
+    <INCLUDEPATH value="..\;..;..\RS232_01;$(BCB)\Projects;D:\SVN\centrale\GUI;$(BCB)\include;$(BCB)\include\vcl;D:\MATech\Prog\3rd\boost-1.30.2"/>
+    <LIBPATH value="..\;..;..\RS232_01;$(BCB)\Projects;D:\SVN\centrale\GUI;$(BCB)\source\indy9\9.13\c6;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-I..\. -I.. -I..\RS232_01 -I$(BCB)\Projects -ID:\SVN\centrale\GUI 
+      -I$(BCB)\include -I$(BCB)\include\vcl -ID:\MATech\Prog\3rd\boost-1.30.2 
+      -src_suffix cpp -DWIN32 -D_WIN32 -boa"/>
+    <CFLAG1 value="-O2 -H=$(BCB)\lib\vcl60.csm -Hc -Vx -Ve -X- -a8 -5 -b- -k- -vi -c -tW -tWM"/>
+    <PFLAGS value="-$Y- -$L- -$D- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zn"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpe -x -Gn"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj Memmgr.Lib sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mti.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="gui.res" FORMNAME="" UNITNAME="gui.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="gui.cpp" FORMNAME="" UNITNAME="gui" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="main.cpp" FORMNAME="Form1" UNITNAME="main" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="HTTPServer.cpp" FORMNAME="" UNITNAME="HTTPServer.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MPNLBase.cpp" FORMNAME="" UNITNAME="MPNLBase.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MThread.cpp" FORMNAME="" UNITNAME="MThread.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MUtils.cpp" FORMNAME="" UNITNAME="MUtils.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="boost_thread.lib" FORMNAME="" UNITNAME="boost_thread.lib" CONTAINERID="LibTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\RS232_01\CommCtrl.cpp" FORMNAME="" UNITNAME="CommCtrl" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\CentraleController.cpp" FORMNAME="" UNITNAME="CentraleController" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=0
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1028
+CodePage=950
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=1.0.0.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[HistoryLists\hlIncludePath]
+Count=5
+Item0=..\;..;..\RS232_01;$(BCB)\Projects;D:\SVN\centrale\GUI;$(BCB)\include;$(BCB)\include\vcl;D:\MATech\Prog\3rd\boost-1.30.2
+Item1=..\;..\RS232_01;$(BCB)\Projects;D:\SVN\centrale\GUI;$(BCB)\include;$(BCB)\include\vcl;D:\MATech\Prog\3rd\boost-1.30.2
+Item2=..\RS232_01;$(BCB)\Projects;D:\SVN\centrale\GUI;$(BCB)\include;$(BCB)\include\vcl;D:\MATech\Prog\3rd\boost-1.30.2
+Item3=$(BCB)\Projects;D:\SVN\centrale\GUI;$(BCB)\include;$(BCB)\include\vcl;D:\MATech\Prog\3rd\boost-1.30.2
+Item4=$(BCB)\Projects;D:\SVN\centrale\GUI;$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=4
+Item0=..\;..;..\RS232_01;$(BCB)\Projects;D:\SVN\centrale\GUI;$(BCB)\source\indy9\9.13\c6;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item1=..\;..\RS232_01;$(BCB)\Projects;D:\SVN\centrale\GUI;$(BCB)\source\indy9\9.13\c6;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item2=..\RS232_01;$(BCB)\Projects;D:\SVN\centrale\GUI;$(BCB)\source\indy9\9.13\c6;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item3=$(BCB)\Projects;D:\SVN\centrale\GUI;$(BCB)\source\indy9\9.13\c6;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=5
+Item0=WIN32;_WIN32
+Item1=WIN32;_WIN32;_DEBUG
+Item2=WIN32
+Item3=_DEBUG;WIN32
+Item4=_DEBUG
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+  </IDEOPTIONS>
+</PROJECT>
