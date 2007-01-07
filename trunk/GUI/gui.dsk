@@ -1,30 +1,38 @@
 [Closed Files]
-File_0=SourceModule,'D:\SVN\centrale\main.cpp',0,1,1,8,6,0,0
-File_1=SourceModule,'D:\SVN\centrale\GUI\MThread.cpp',0,1,1,1,1,0,0
-File_2=SourceModule,'D:\SVN\centrale\GUI\MPNLBase.cpp',0,1,644,1,1,0,0
-File_3=SourceModule,'d:\programs\dev\borland\bcb6\include\stl\_string.h',0,1,980,30,985,0,0
-File_4=SourceModule,'D:\SVN\antbattleserver\cppgui\borland\AntGUI.cpp',0,1,1,8,2,0,0
-File_5=SourceModule,'d:\programs\dev\borland\bcb6\include\CommCtrl.h',0,1,1332,26,1361,0,0
-File_6=SourceModule,'d:\programs\dev\borland\bcb6\include\vcl\CommCtrl.hpp',0,1,708,20,723,0,0
-File_7=SourceModule,'D:\SVN\centrale\GUI\MPNLBase.h',0,1,1,1,24,0,0
+File_0=SourceModule,'D:\MATech\Prog\Perso\MemGraph\Unit1.cpp',0,1,16,12,21,1,0
+File_1=SourceModule,'D:\SVN\centrale\GUI\MPNLBase.cpp',0,1,249,21,251,0,0
+File_2=SourceModule,'D:\SVN\antbattleserver\cppgui\borland\main.cpp',0,1,1,10,3,1,0
+File_3=SourceModule,'d:\programs\dev\borland\bcb6\include\vcl\CommCtrl.hpp',0,1,717,10,723,0,0
+File_4=SourceModule,'D:\SVN\centrale\main.cpp',0,1,1,8,6,0,0
+File_5=SourceModule,'D:\SVN\centrale\GUI\MThread.cpp',0,1,1,1,1,0,0
+File_6=SourceModule,'d:\programs\dev\borland\bcb6\include\stl\_string.h',0,1,980,30,985,0,0
+File_7=SourceModule,'D:\SVN\antbattleserver\cppgui\borland\AntGUI.cpp',0,1,1,8,2,0,0
+File_8=SourceModule,'d:\programs\dev\borland\bcb6\include\CommCtrl.h',0,1,1332,26,1361,0,0
+File_9=SourceModule,'D:\SVN\centrale\GUI\MPNLBase.h',0,1,1,1,24,0,0
 
 [Modules]
-Module0=D:\SVN\antbattleserver\cppgui\borland\main.cpp
+Module0=D:\SVN\centrale\CentraleController.cpp
 Module1=D:\SVN\centrale\GUI\main.cpp
-Module2=D:\SVN\centrale\RS232_01\CommCtrl.h
-Module3=D:\SVN\centrale\RS232_01\CommCtrl.cpp
-Module4=D:\SVN\centrale\GUI\HTTPServer.cpp
-Count=5
+Module2=D:\MATech\Prog\Perso\MemGraph\MemGrapher.cpp
+Module3=D:\SVN\centrale\RS232_01\CommCtrl.h
+Module4=D:\SVN\centrale\RS232_01\CommCtrl.cpp
+Module5=D:\SVN\centrale\GUI\HTTPServer.cpp
+Count=6
 EditWindowCount=1
 
-[D:\SVN\antbattleserver\cppgui\borland\main.cpp]
+[D:\SVN\centrale\CentraleController.cpp]
 ModuleType=SourceModule
-FormState=1
+FormState=0
 FormOnTop=0
 
 [D:\SVN\centrale\GUI\main.cpp]
 ModuleType=SourceModule
 FormState=1
+FormOnTop=0
+
+[D:\MATech\Prog\Perso\MemGraph\MemGrapher.cpp]
+ModuleType=SourceModule
+FormState=0
 FormOnTop=0
 
 [D:\SVN\centrale\RS232_01\CommCtrl.h]
@@ -51,13 +59,14 @@ FormState=0
 FormOnTop=0
 
 [EditWindow0]
-ViewCount=5
-CurrentView=1
+ViewCount=6
+CurrentView=2
 View0=0
 View1=1
 View2=2
 View3=3
 View4=4
+View5=5
 CodeExplorer=CodeExplorer@EditWindow0
 MessageView=MessageView@EditWindow0
 ClassHierarchy=ClassHierarchy@EditWindow0
@@ -82,36 +91,43 @@ BottomPanelSize=0
 
 [View0]
 Module=D:\SVN\centrale\GUI\main.cpp
-CursorX=1
-CursorY=37
-TopLine=28
+CursorX=49
+CursorY=14
+TopLine=1
 LeftCol=1
 
 [View1]
-Module=D:\SVN\antbattleserver\cppgui\borland\main.cpp
-CursorX=8
-CursorY=35
+Module=D:\MATech\Prog\Perso\MemGraph\MemGrapher.cpp
+CursorX=1
+CursorY=1
 TopLine=1
 LeftCol=1
 
 [View2]
-Module=D:\SVN\centrale\GUI\HTTPServer.cpp
-CursorX=10
-CursorY=28
-TopLine=12
-LeftCol=2
+Module=D:\SVN\centrale\CentraleController.cpp
+CursorX=62
+CursorY=39
+TopLine=1
+LeftCol=1
 
 [View3]
-Module=D:\SVN\centrale\RS232_01\CommCtrl.cpp
-CursorX=12
-CursorY=87
-TopLine=71
+Module=D:\SVN\centrale\GUI\HTTPServer.cpp
+CursorX=29
+CursorY=46
+TopLine=28
 LeftCol=1
 
 [View4]
+Module=D:\SVN\centrale\RS232_01\CommCtrl.cpp
+CursorX=39
+CursorY=92
+TopLine=72
+LeftCol=1
+
+[View5]
 Module=D:\SVN\centrale\RS232_01\CommCtrl.h
-CursorX=27
-CursorY=17
+CursorX=39
+CursorY=18
 TopLine=1
 LeftCol=1
 
@@ -132,8 +148,8 @@ Left=0
 Top=0
 Width=1280
 Height=101
-MaxLeft=-1
-MaxTop=-1
+MaxLeft=-4
+MaxTop=-4
 MaxWidth=1288
 MaxHeight=101
 ClientWidth=1280
@@ -271,7 +287,7 @@ LRDockWidth=190
 Dockable=1
 SplitPos=89
 ArrangeBy=Name
-SelectedItem=Caption
+SelectedItem=Font
 ExpandedItems=
 HiddenCategories=Legacy
 
@@ -401,6 +417,6 @@ TBDockHeight=94
 LRDockWidth=355
 Dockable=1
 TabPosition=0
-ActiveTab=To-Do List - gui
+ActiveTab=Object Inspector
 TabDockClients=PropertyInspector,ProjectManager,MessageView@EditWindow0,CodeguardLog,CallStackWindow,ObjectTree,CodeExplorer@EditWindow0,ToDo List
 

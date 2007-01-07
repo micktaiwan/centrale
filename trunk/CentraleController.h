@@ -27,7 +27,8 @@ private:
 //---------------------------------------------------------------------------
 class CController {
 public:
-   int Power;
+   unsigned long Power;
+   unsigned long PositiveActiveEnergy;
    MHTTPServer* HTTP;
    MStatList Stats;
 
@@ -40,7 +41,6 @@ public:
 private:
 
 };
-
 
 #endif
 

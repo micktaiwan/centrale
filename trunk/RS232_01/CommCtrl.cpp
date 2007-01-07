@@ -83,12 +83,18 @@ unsigned long get_value(char* buf, int nb) {
 
 //---------------------------------------------------------------------------
 unsigned long ReadPower() {
-   SendMsg(0x03,0x19,0x02);
    char buf[50];
+   SendMsg(0x03,0x19,0x02);
    ReadRS(buf, COM1);
    return (unsigned long)(get_value(buf,4)/100000.+0.5);
    }
 
+unsigned long ReadPositiveActiveEnergy() {
+   char buf[50];
+   SendMsg(0x03,0x25,0x02);
+   ReadRS(buf, COM1);
+   return (unsigned long)(get_value(buf,4));
+   }
 
 unsigned long ReadFreq() {
    SendMsg(0x10,0x26,0x01);
