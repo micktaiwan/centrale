@@ -11,7 +11,7 @@ using namespace std;
 #pragma resource "*.dfm"
 TForm1 *Form1;
 
-string ProgVersion = "Centrale Controller V1.0";
+string ProgVersion = "Centrale Controller V1.0.1";
 
 //---------------------------------------------------------------------------
 void WriteToLog(int, const string& str) {
@@ -48,6 +48,11 @@ void __fastcall TForm1::Timer1Timer(TObject *Sender) {
    // Read the value, fill the list
    Cont->Read();
    Label1->Caption = AnsiString(Cont->Power)+ " KW";
+   Label3->Caption = AnsiString(Cont->PositiveActiveEnergy)+ "";
+
+
+   return;
+
 
    // Graph
    typedef std::vector<MItem> MItemList;

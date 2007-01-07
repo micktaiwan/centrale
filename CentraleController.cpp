@@ -36,6 +36,7 @@ void CController::HTTPInfo(string& str) {
    s << "<b>" << ProgVersion << "</b><br/><br/>";
    s << "<b>Date:</b> " << MUtils::MyNow(1) << "<br/>";
    s << "<b>Puissance:</b> " << Power << " KW<br/>";
+   s << "<b>Active Energy:</b> " << PositiveActiveEnergy << "<br/>";
    str = s.str();
 
    }
@@ -43,7 +44,9 @@ void CController::HTTPInfo(string& str) {
 //---------------------------------------------------------------------------
 void CController::Read() {
 
-   Power = 23 + rand()% 3; //ReadPower();
+   //Power = 23 + rand()% 3;
+   Power = ReadPower();
+   PositiveActiveEnergy = ReadPositiveActiveEnergy();
    MItem i;
    i.tick = GetTickCount();
    i.power = Power;

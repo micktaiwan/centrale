@@ -2,7 +2,7 @@ object Form1: TForm1
   Left = 470
   Top = 284
   Width = 384
-  Height = 284
+  Height = 333
   Caption = 'Centrale'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -44,16 +44,29 @@ object Form1: TForm1
   end
   object LabelPort: TLabel
     Left = 144
-    Top = 240
+    Top = 284
     Width = 87
     Height = 13
     Caption = 'Port du web: 8080'
   end
   object PB: TPaintBox
     Left = 4
-    Top = 136
+    Top = 180
     Width = 365
     Height = 93
+  end
+  object Label3: TLabel
+    Left = 152
+    Top = 148
+    Width = 73
+    Height = 29
+    Caption = 'Label3'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -24
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
   end
   object Timer1: TTimer
     OnTimer = Timer1Timer

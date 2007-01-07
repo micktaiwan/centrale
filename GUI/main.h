@@ -19,6 +19,7 @@ __published:	// IDE-managed Components
    TLabel *Label2;
    TLabel *LabelPort;
    TPaintBox *PB;
+   TLabel *Label3;
    void __fastcall FormCreate(TObject *Sender);
    void __fastcall FormDestroy(TObject *Sender);
    void __fastcall Timer1Timer(TObject *Sender);

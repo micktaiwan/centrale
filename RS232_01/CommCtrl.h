@@ -15,6 +15,7 @@ bool ReadRS(char*, int);
 void CloseH();
 unsigned int calc_crc (char *ptbuf, unsigned int num);
 unsigned long ReadPower();
+unsigned long ReadPositiveActiveEnergy();
 
 #endif
 
