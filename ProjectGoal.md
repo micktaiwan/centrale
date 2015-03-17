@@ -1,0 +1,2 @@
+My goal is to do a simple program to control my hydroelectric power station.
+The second goal is to provide code for sending bytes to a RS232 port.
